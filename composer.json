@@ -1,0 +1,35 @@
+{
+    "name": "hofstaetter/eid",
+    "description": "ID Austria (e-ID) OIDC Provider for Laravel Socialite",
+    "license": "MIT",
+    "keywords": [
+        "idaustria",
+        "laravel",
+        "eid",
+        "oauth",
+        "oidc",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Hofstätter",
+            "email": "alex@hofstaetter.io"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hofstaetter/eid/issues",
+        "source": "https://github.com/hofstaetter/eid",
+        "docs": "https://docs.hofstaetter.io/packages/eid"
+    },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "gamegos/jws": "^1.0",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hofstaetter\\Eid\\": ""
+        }
+    }
+}
